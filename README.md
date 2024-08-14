@@ -2,7 +2,25 @@
 > Generated using [`mermaid`](https://mermaid.js.org/)
 
 - [Database Design](#database-design)
+  - [Problem](#problem)
   - [ERD Diagram](#erd-diagram)
+
+## Problem
+
+XXXXXXXX is a platform which health and wellness providers use to provide services for
+their clients. We want to create a new feature which allows providers to create forms for
+their clients to fill out. Using a drag-and-drop interface, they can create a type of form
+which will then be filled out by multiple clients.
+
+We want to support these types of form elements:
+● text field
+● select fields
+● radio buttons
+● checkboxes
+Design the database schema you would use to implement this feature. The schema
+should support both
+● providers creating multiple types of forms which any client can fill out
+● clients filling out a form with answers
 
 ## ERD Diagram
 ```mermaid
